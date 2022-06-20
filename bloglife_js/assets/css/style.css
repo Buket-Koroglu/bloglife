@@ -1,0 +1,212 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    vertical-align: middle;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.float-end {
+    float: right !important;
+}
+
+.button {
+    padding: 4px 16px;
+    border: none;
+    outline: 0;
+}
+
+.content {
+    font-size: 36px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    position: relative;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    top: 0;
+    
+}
+
+.b-text {
+    color: white;
+}
+
+.content-images {
+    position: relative;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content-images::after,
+.content-images::before {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.images-text {
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 5px;
+    font-size: xx-large;
+}
+
+.text-button {
+    background-color: lightgray;
+    font-size: medium !important;
+    color: black;
+}
+.card-body {
+    background-color: white;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.span-btn {
+    color: black;
+    padding: 2px 5px;
+}
+
+.date {
+    font-size: small;
+}
+.like-john {
+    margin-top: 70px;
+}
+.card-body-name {
+    filter: grayscale(0.6);
+}
+
+.name-text {
+    color: white;
+    padding: 16px;
+
+}
+.card-post,
+.card-advertise,
+.card-tags,
+.card-inspiration,
+.card-follow,
+.advertise-body,
+.card-subscribe {
+    background-color: white;
+}
+
+.card-header {
+    color: white;
+}
+
+.advertise-ad{
+    background-color: lightgray !important;
+    margin: 16px;
+}
+
+.text-button-tags-active {
+    color: white;
+}
+
+.text-button-tags {
+    font-size: small;
+}
+.follow-body{
+    background-color: white !important;
+    height: 80px;
+}
+.follow-btn {
+    font-size: 24px !important;
+}
+
+.btn-subscribe {
+    background-color: red;
+    color: white;
+    opacity: 0.8;
+    border-style: none;
+}
+
+.btn-subscribe:hover {
+    background-color: lightgray;
+    color: black;
+    opacity: 0.8;
+    border-style: none;
+}
+footer{
+    background-color: #616161!important;
+}
+.footer-btn,
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-btn:hover {
+    color: black !important;
+    background-color: lightgray !important;
+    text-decoration: none;
+}
+
+#count1, #count2, #count3{
+    display: none;
+}
+.count-1, .count-2, .count-3{
+    display: block !important;
+}
+
+
+/*yan menü*/
+
+ul{
+    list-style-type:none ;
+}
+li:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+#menu-icon{
+    font-size: 24px;
+}
+
+#sidebar-area{
+    position: fixed;
+    top: 0;
+    width: 200px;
+    right: -200px;
+    z-index: 2;
+}
+
+#sidebar-area.active{
+    right: 0;
+}
+
+#menu-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+
+#menu-icon{
+    color: #ccc;
+}
+
